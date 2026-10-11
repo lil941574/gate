@@ -70,6 +70,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      - name: Show site URL
-        run: echo "site: https://lil941574.github.io/gate/ (deploy outcome: ${{ steps.deployment.outcome }})"
- 
+      - name: Show URL
+        run: echo "Deploy finished"
